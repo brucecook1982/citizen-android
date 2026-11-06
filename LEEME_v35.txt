@@ -1,0 +1,17 @@
+CITIZEN — RESCATE DE CHARLIE v0.35
+EFECTOS REALES PROPORCIONADOS POR EL AUTOR
+
+Base de jugabilidad: v0.34. Se conservan: Charlie reactiva, 6 rivales, 3 oleadas, ataque B gancho ascendente + patada sorpresa, evasión L back handspring, controles móviles, música y voces del rescate.
+
+Seis fuentes MP3 originales (sin cambios) se guardan en assets/audio_originales.
+Doce fragmentos editados, normalizados y adaptados para los eventos se guardan en assets/audio/*.wav.
+
+GANCHO H: grapple_fire, grapple_latch, grapple_reel.
+HUMO B: smoke_throw, smoke_puff, grapple_fire, grapple_latch, grapple_reel, air_whoosh, dive_impact.
+EVASIÓN L: evade_whoosh_1, evade_whoosh_2, soft_land.
+GOLPES: punch_impact cuando el golpe conecta; hit_grunt cuando Citizen recibe daño.
+
+Tanto los 104 PNG, como los 2 MP3 del juego y los 12 WAV nuevos están incrustados en el playme.html; también están presentes por separado.
+En PC abrir playme.html. En móvil publicar carpeta en un hosting HTTPS para los controles táctiles.
+M apaga todos los sonidos del juego incluidos estos efectos.
+La posibilidad de publicar audios en un videojuego distribuido depende de las licencias de los archivos descargados por el autor: revisarlas antes de publicar comercialmente.

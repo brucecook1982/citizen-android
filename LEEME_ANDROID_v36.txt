@@ -1,0 +1,18 @@
+CITIZEN — RESCATE DE CHARLIE v0.36 ANDROID
+
+Versión móvil basada en v0.35 con los seis efectos de sonido del autor.
+No es un APK: es un juego HTML5 para Chrome Android, con controles táctiles.
+
+PARA JUGAR EN EL TELÉFONO:
+1. Descargá playme.html (o descargá el ZIP y extraelo).
+2. Abrí playme.html con Chrome, no con la vista previa de Google Drive.
+3. Girá el teléfono horizontalmente, tocá JUGAR AHORA y usá el joystick + cinco botones.
+4. Si Chrome o el gestor de archivos impide abrir HTML local, publicá el contenido del ZIP en un alojamiento HTTPS compatible con archivos estáticos (el principal es playme.html).
+
+CONTROLES: joystick izquierda; J puño, K patada, H gancho, B humo y ataque sorpresa, L voltereta evasiva. Menú ☰ para controles extra y pantalla completa.
+
+RECURSOS: 104 PNG, 2 MP3, 12 WAV incrustados en playme.html. También están en assets. Los 6 MP3 de efectos originales están preservados.
+
+Conserva intactos combate, oleadas, humo, gancho ascendente, back handspring, rescate, voz y reacciones de Charlie.
+No se necesita conexión a Internet una vez abierto playme.html: todos los recursos del juego están incrustados.
+Nota: Chrome para Android puede exigir HTTPS para instalar como app desde pantalla de inicio; abrir un HTML local no equivale a APK.

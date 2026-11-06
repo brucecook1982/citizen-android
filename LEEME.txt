@@ -1,0 +1,13 @@
+CITIZEN — Rescate de Charlie v0.34 | GANCHO VERTICAL Y BACK HANDSPRING
+
+Base: v0.33 CHARLIE REACTIVA, conservando todas sus reacciones y rescate.
+
+B: bomba de humo hacia delante, Citizen extiende el brazo derecho con la pistola de gancho hacia el techo, el cable se engancha, asciende por el aire, se reposiciona y desciende con patada sorpresa no letal.
+H: gancho horizontal de combate sin cambios.
+L: verdadero back handspring hacia atrás. Ocho fotogramas de rotación acrobática, desplazamiento real de retirada y breve invulnerabilidad durante la evasión; no se puede encadenar indefinidamente.
+J / K: combos de puños y patadas conservados.
+Música de combate, audio de Charlie, cámara, lluvia, defensa de rivales, tres oleadas y controles táctiles Android/iOS conservados.
+
+Jugar: playme.html; funciona sin conexión.
+Proyecto completo: assets/, src/, iconos y documentación.
+VERIFICAR_RECURSOS.py verifica los PNG y MP3 del HTML incrustado contra assets/.

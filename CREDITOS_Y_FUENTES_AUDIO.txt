@@ -1,0 +1,10 @@
+SFX proporcionados por el creador del proyecto. Conservar las atribuciones y verificar licencias para redistribución.
+
+akivavita-grappling-gun-132447.mp3
+freesound_community-whoosh-blow-flutter-shortwav-14678.mp3
+jofae-swing-whoosh-110410.mp3
+freesound_community-gruntsound-91784.mp3
+universfield-punch-impact-hit-567196.mp3
+freesound_community-poof-of-smoke-87381.mp3
+
+Adaptaciones: recortes y niveles editados únicamente para sincronización de juego. Archivos originales preservados.

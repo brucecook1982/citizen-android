@@ -1,0 +1,27 @@
+CITIZEN — Rescate de Charlie v0.32 (iPhone / Android / PC)
+
+NOVEDADES DE iOS:
+- Controles táctiles de v0.31 conservados.
+- Ajustes de safe-area para notch, Dynamic Island y barra inferior.
+- Altura visible de Safari actualizada con visualViewport para reducir recortes.
+- El botón APP del menú táctil explica cómo añadir el juego a la pantalla de inicio desde Safari.
+- Metadatos de web app para iPhone y un icono de pantalla de inicio.
+- No se fuerza requestFullscreen en iPhone (Safari no lo admite para elementos HTML comunes).
+
+SIN CAMBIOS: combate, golpes, gancho, humo, zoom, 6 enemigos, Charlie y los audios.
+
+IMPORTANTE: No es un APK ni un IPA. Es una web app HTML5. Para jugar al tocar una URL desde el iPhone, el HTML debe publicarse en un sitio HTTPS. Un archivo guardado en Google Drive NO equivale a una web publicada.
+
+CÓMO USAR EN IPHONE:
+1. Publicar index.html y playme.html junto a la carpeta assets en un hosting HTTPS, o publicar el contenido de este ZIP.
+2. Abrir la URL publicada en Safari y girar a horizontal.
+3. Tocar el joystick y botones para activar sonido y jugar.
+4. Opcional: Safari > Compartir > Añadir a pantalla de inicio > Abrir como app web > Añadir.
+
+CONTRATOS DE ENTREGA:
+- playme.html: archivo autónomo que incluye sprites, música y voz.
+- index.html: redireccionador a playme.html para servidores estáticos.
+- assets/icono_citizen_ios.png: icono de app web.
+- src/mobile-controls.js: controles táctiles editables.
+
+Pruebas automatizadas en navegador simulado; probar en iPhone físico antes de declarar compatibilidad completa.
