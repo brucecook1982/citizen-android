@@ -1,0 +1,50 @@
+CITIZEN — RESCATE DE CHARLIE v0.37 | GITHUB → APK
+=================================================
+
+ESTE ZIP ESTA PREPARADO PARA SUBIR SU CONTENIDO A LA RAIZ DEL REPOSITORIO.
+NO SE SUBE EL ARCHIVO ZIP CERRADO: primero se extrae.
+
+JUEGO CONSERVADO
+El archivo www/playme.html es una copia byte a byte del juego aprobado v0.36:
+6 enemigos, 3 oleadas, Charlie reactiva, gancho vertical, humo, back handspring,
+controles táctiles, música, voz y todos los efectos.
+La denominación v0.37 identifica este empaquetado para APK, no cambios jugables.
+
+ARCHIVOS OBLIGATORIOS EN LA RAIZ DE GITHUB
+  .github/workflows/compilar-apk.yml
+  www/index.html
+  www/playme.html
+  www/icono_citizen.png
+  package.json
+  capacitor.config.json
+
+PASOS (EN LA COMPUTADORA)
+1. Descargá este ZIP y usá «Extraer todo». Abrí la carpeta extraída.
+2. En GitHub abrí tu repositorio → Code → Add file → Upload files.
+3. Arrastrá el CONTENIDO de la carpeta extraída; NO la carpeta entera ni el ZIP.
+4. Verificá que en la lista figure package.json (no www/package.json).
+5. Confirmá que esté .github/workflows/compilar-apk.yml.
+6. Hacé clic en Commit changes.
+7. Abrí Actions → CITIZEN - Compilar APK Android → Run workflow.
+   También debería iniciarse automáticamente al hacer un commit en main.
+8. Cuando termine correctamente, entrá a la ejecución y descargá
+   el artefacto CITIZEN_v37_ANDROID_APK.
+9. Extraé ese artefacto ZIP. El archivo app-debug.apk se instala en Android.
+
+SI GITHUB NO SUBE LA CARPETA OCULTA .github
+Usá Add file → Create new file y escribí exactamente este nombre:
+  .github/workflows/compilar-apk.yml
+Copiá ahí el contenido del archivo original del ZIP y confirmá los cambios.
+El archivo debe estar en esa carpeta: si queda en la raíz GitHub Actions no lo reconoce.
+
+IMPORTANTE
+- Esta entrega NO es una APK compilada; la compila GitHub Actions.
+- La app usa Capacitor v8, Node.js 22, Java 21 y SDK Android 36.
+- La APK de prueba es de depuración y no está lista para publicarse en Play Store.
+- Si ya hay archivos anteriores en el repo, esta entrega no elimina los sobrantes;
+  el nuevo flujo toma sólo package.json, capacitor.config.json y www/.
+- GitHub tiene límites de carga desde el navegador: el HTML pesa alrededor de 21 MB.
+- Recomendamos mantener el repositorio en PRIVADO.
+
+MANIFIESTO DE INTEGRIDAD
+SHA256 del juego conservado: 6ab84847b198ddcbe93bb3357ef7b7ce909cde36bec0085a3a3a76a0d29df280

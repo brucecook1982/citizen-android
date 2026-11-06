@@ -1,0 +1,8 @@
+{
+  "appId": "com.citizen.rescatecharlie",
+  "appName": "CITIZEN - Rescate de Charlie",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "citizen-rescate-charlie-android",
+  "version": "0.37.0",
+  "private": true,
+  "description": "CITIZEN v0.37 paquete GitHub APK; jugabilidad v0.36 conservada",
+  "scripts": {
+    "android:crear": "cap add android",
+    "android:sincronizar": "cap sync android",
+    "android:abrir": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/android": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0"
+  }
+}

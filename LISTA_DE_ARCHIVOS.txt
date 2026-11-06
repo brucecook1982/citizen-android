@@ -1,0 +1,11 @@
+ESTOS ARCHIVOS DEBEN QUEDAR EN LA RAIZ DE GITHUB (sin una carpeta extra):
+
+.github/workflows/compilar-apk.yml
+.gitignore
+LEER_PRIMERO_GITHUB.txt
+LISTA_DE_ARCHIVOS.txt
+capacitor.config.json
+package.json
+www/icono_citizen.png
+www/index.html
+www/playme.html
